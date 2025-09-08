@@ -1,7 +1,0 @@
-api:
-  baseURL: https://jsonplaceholder.typicode.com
-  postsBasePath: posts
-  mock:
-    baseURL: http://localhost:9090
-    port: 9090
-    mappingsFilesDir: src/test/resources/wiremock

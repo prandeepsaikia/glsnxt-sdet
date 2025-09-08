@@ -1,5 +1,0 @@
-spring:
-  application:
-   name: sdetTask
-  main:
-    web-application-type: none
