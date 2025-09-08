@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/posts",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$[?(@.userId == -1)]" }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "error": "Invalid userId"
+    }
+  }
+}
+
