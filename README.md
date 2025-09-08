@@ -76,6 +76,13 @@ The following AI tools were used to assist in creating test documentation and co
 - **Allure Report:** Allure reports are generated and uploaded to the GitHub Pages branch.
 - **Allure Report URL:** https://prandeepsaikia.github.io/glsnxt-sdet/
 
+## More Information
+1. Wiremock mappings are located in `src/test/resources/mappings`.
+2. Test data is generated using - Datafaker library https://github.com/datafaker-net/datafaker
+3. Spring profiles used: **qa**
+4. Rest Assured Config is located in `src/test/java/com/glsnxt/sdetTask/api/config/Config.java`
+5. Test cases are located in `src/test/java/com/glsnxt/sdetTask/api/tests`
+
 ## Additional Information
 1. **Wiremock** is used for negative testing and simulating API failures.
 2. This repository is kept **public** so that GitHub pages can be used to host the Test reports.
