@@ -80,3 +80,5 @@ The following AI tools were used to assist in creating test documentation and co
 1. **Wiremock** is used for negative testing and simulating API failures.
 2. Parallel execution of tests can be implemented.
 3. This is a very basic API testing framework.
+4. More advanced testing scenarios can be added.
+
