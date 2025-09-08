@@ -36,13 +36,13 @@ jobs:
         continue-on-error: true
         with:
           ref: gh-pages
-          path: gh-pages
+          path: allure
 
       - name: Build Allure report
         uses: simple-elf/allure-report-action@master
         if: always()
         with:
-          gh_pages: gh-pages/allure
+          gh_pages: gh-pages
           allure_report: allure-report
           allure_history: allure-history
           allure_results: target/allure-results
