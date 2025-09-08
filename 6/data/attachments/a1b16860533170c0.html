@@ -1,0 +1,27 @@
+<div>POST to http://localhost:9090/posts</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;userId&quot;: 832,
+    &quot;title&quot;: &quot;Suite 917 04868 Kub Overpass, New Monroe, MS 79463&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:9090/posts&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;userId&quot;: 832,
+    &quot;title&quot;: &quot;Suite 917 04868 Kub Overpass, New Monroe, MS 79463&quot;
+}&#39;
+    </div>
+
