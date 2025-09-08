@@ -48,7 +48,7 @@ The following AI tools were used to assist in creating test documentation and co
 1. **Install Dependencies**
    - Download Java 21 from [here](https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/downloads-list.html).
     Install the JDK and set the `JAVA_HOME` environment variable
-   - Install maven from [here](https://maven.apache.org/download.cgi).Configure maven.
+   - Install maven from [here](https://maven.apache.org/download.cgi). Configure maven.
 2. **Clone the Repository**
    ```bash
    git clone https://github.com/prandeepsaikia/glsnxt-sdet.git
@@ -78,7 +78,8 @@ The following AI tools were used to assist in creating test documentation and co
 
 ## Additional Information
 1. **Wiremock** is used for negative testing and simulating API failures.
-2. Parallel execution of tests can be implemented.
-3. This is a very basic API testing framework.
-4. More advanced testing scenarios can be added.
+2. This repository is kept **public** so that GitHub pages can be used to host the Test reports.
+3. Parallel execution of tests can be implemented.
+4. This is a very basic API testing framework.
+5. More advanced testing scenarios can be added.
 
